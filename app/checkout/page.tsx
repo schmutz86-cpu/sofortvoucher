@@ -4,10 +4,7 @@ import { useState } from 'react';
 import { useCart } from '@/lib/CartContext';
 import { useLanguage } from '@/lib/LanguageContext';
 import { useRouter } from 'next/navigation';
-import { loadStripe, Stripe } from '@stripe/stripe-js';
-
-// Initialize Stripe outside component to avoid recreating
-const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || 'pk_live_51T25gBBpWM9f8xdpE7CuvVfchwRmW54jcDCKlPdz3JVd2XT5Ki6lKny1qdZRr1N0rOdkDRGtxnpz9gr0em6JyOaL00F3nFIBq4');
+import { loadStripe } from '@stripe/stripe-js';
 
 export default function CheckoutPage() {
   const { items, totalPrice, clearCart } = useCart();
@@ -87,9 +84,8 @@ export default function CheckoutPage() {
       const { sessionId } = await response.json();
 
       // Redirect to Stripe Checkout
-      const stripe = await stripePromise;
+      const stripe = await loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '');
       if (stripe) {
-        // @ts-ignore - Stripe redirectToCheckout exists at runtime
         const { error } = await stripe.redirectToCheckout({ sessionId });
         if (error) {
           throw error;
