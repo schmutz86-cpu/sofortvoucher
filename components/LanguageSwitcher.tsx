@@ -8,8 +8,6 @@ export default function LanguageSwitcher() {
 
   const languages: { code: Language; flag: string; name: string }[] = [
     { code: 'de', flag: '🇩🇪', name: 'Deutsch' },
-    { code: 'fr', flag: '🇫🇷', name: 'Français' },
-    { code: 'it', flag: '🇮🇹', name: 'Italiano' },
     { code: 'en', flag: '🇬🇧', name: 'English' },
   ];
 
