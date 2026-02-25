@@ -58,9 +58,9 @@ export default function CheckoutPage() {
     try {
       const { clientSecret } = await createCheckoutSession(
         items.map(item => ({
-          id: item.id,
-          name: item.name,
-          price: item.price,
+          id: item.productId,
+          name: item.productName,
+          price: item.denomination,
           quantity: item.quantity,
         })),
         formData.email
@@ -194,9 +194,9 @@ export default function CheckoutPage() {
 
               <div className="space-y-3 mb-4">
                 {items.map((item) => (
-                  <div key={item.id} className="flex justify-between text-slate-300">
-                    <span>{item.name} (×{item.quantity})</span>
-                    <span>€{(item.price * item.quantity).toFixed(2)}</span>
+                  <div key={`${item.productId}-${item.denomination}`} className="flex justify-between text-slate-300">
+                    <span>{item.productName} (×{item.quantity})</span>
+                    <span>€{(item.denomination * item.quantity).toFixed(2)}</span>
                   </div>
                 ))}
               </div>
