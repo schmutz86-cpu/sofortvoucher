@@ -89,12 +89,12 @@ export default function KassePage() {
             {items.map(item => (
               <div key={item.productId} className="flex justify-between text-slate-300 text-sm mb-2">
                 <span>{item.productName} x{item.quantity}</span>
-                <span>{(item.denomination * item.quantity).toFixed(2)} CHF</span>
+                <span>€{(item.denomination * item.quantity).toFixed(2)}</span>
               </div>
             ))}
             <div className="border-t border-slate-700 mt-4 pt-4 flex justify-between text-white font-bold">
               <span>Total</span>
-              <span>{totalPrice.toFixed(2)} CHF</span>
+              <span>€{totalPrice.toFixed(2)}</span>
             </div>
           </div>
 

@@ -41,7 +41,7 @@ export default function CartPage() {
 
                       <div className="flex-1">
                         <h3 className="text-white font-semibold text-lg mb-1">{item.productName}</h3>
-                        <p className="text-blue-400 font-bold text-xl mb-2">{item.denomination.toFixed(2)} CHF</p>
+                        <p className="text-blue-400 font-bold text-xl mb-2">€{item.denomination.toFixed(2)}</p>
 
                         <div className="flex items-center gap-4">
                           <div className="flex items-center gap-2">
@@ -93,11 +93,11 @@ export default function CartPage() {
                     </div>
                     <div className="flex justify-between text-slate-300">
                       <span>Zwischensumme</span>
-                      <span>{totalPrice.toFixed(2)} CHF</span>
+                      <span>€{totalPrice.toFixed(2)}</span>
                     </div>
                     <div className="border-t border-slate-700 pt-3 flex justify-between text-white text-xl font-bold">
                       <span>Total</span>
-                      <span>{totalPrice.toFixed(2)} CHF</span>
+                      <span>€{totalPrice.toFixed(2)}</span>
                     </div>
                   </div>
 
