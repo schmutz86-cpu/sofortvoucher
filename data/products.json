@@ -1,0 +1,218 @@
+[
+  {
+    "id": "steam-50",
+    "name": "Steam Guthaben 50€",
+    "category": "gaming",
+    "brand": "Steam",
+    "price": 50.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "Steam Guthaben 50€ – Kaufe tausende PC-Spiele, Indie-Games, DLCs und Software im größten Gaming-Store der Welt. Einlösbar für Steam, Counter-Strike, Dota 2, und über 50.000 Titel.",
+      "en": "Steam Credit €50 – Buy thousands of PC games, indie games, DLCs and software in the world's largest gaming store. Redeemable for Steam, Counter-Strike, Dota 2, and over 50,000 titles."
+    },
+    "image": "/images/products/steam-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "steam", "pc", "beliebt"]
+  },
+  {
+    "id": "playstation-50",
+    "name": "PlayStation Store 50€",
+    "category": "gaming",
+    "brand": "PlayStation",
+    "price": 50.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "PlayStation Store Guthaben 50€ – Für PS5, PS4 und PS3. Sofortiger Download per E-Mail.",
+      "en": "PlayStation Store Credit €50 – For PS5, PS4 and PS3. Instant download via email."
+    },
+    "image": "/images/products/playstation-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "playstation", "console", "beliebt"]
+  },
+  {
+    "id": "xbox-50",
+    "name": "Xbox Live 50€",
+    "category": "gaming",
+    "brand": "Xbox",
+    "price": 50.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "Xbox Live Guthaben 50€ – Für Xbox Series X|S, Xbox One und Windows. Sofortige Lieferung.",
+      "en": "Xbox Live Credit €50 – For Xbox Series X|S, Xbox One and Windows. Instant delivery."
+    },
+    "image": "/images/products/xbox-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "xbox", "console", "beliebt"]
+  },
+  {
+    "id": "nintendo-50",
+    "name": "Nintendo eShop 50€",
+    "category": "gaming",
+    "brand": "Nintendo",
+    "price": 50.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "Nintendo eShop Guthaben 50€ – Für Nintendo Switch Spiele und DLCs. Sofortige Lieferung.",
+      "en": "Nintendo eShop Credit €50 – For Nintendo Switch games and DLCs. Instant delivery."
+    },
+    "image": "/images/products/nintendo-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "nintendo", "switch", "beliebt"]
+  },
+  {
+    "id": "netflix-25",
+    "name": "Netflix Geschenkkarte 25€",
+    "category": "streaming",
+    "brand": "Netflix",
+    "price": 25.00,
+    "margin": 0.06,
+    "currency": "EUR",
+    "description": {
+      "de": "Netflix Geschenkkarte 25€ – Perfekt zum Verschenken. Einlösbar für Netflix-Abos in Deutschland.",
+      "en": "Netflix Gift Card €25 – Perfect for gifting. Redeemable for Netflix subscriptions in Germany."
+    },
+    "image": "/images/products/netflix-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["streaming", "netflix", "geschenk"]
+  },
+  {
+    "id": "spotify-30",
+    "name": "Spotify Premium 30€",
+    "category": "streaming",
+    "brand": "Spotify",
+    "price": 30.00,
+    "margin": 0.06,
+    "currency": "EUR",
+    "description": {
+      "de": "Spotify Premium Guthaben 30€ – 3 Monate werbefreies Musik-Streaming. Sofortige Lieferung.",
+      "en": "Spotify Premium Credit €30 – 3 months of ad-free music streaming. Instant delivery."
+    },
+    "image": "/images/products/spotify-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["streaming", "spotify", "musik"]
+  },
+  {
+    "id": "apple-50",
+    "name": "Apple App Store & iTunes 50€",
+    "category": "mobile",
+    "brand": "Apple",
+    "price": 50.00,
+    "margin": 0.07,
+    "currency": "EUR",
+    "description": {
+      "de": "Apple Guthaben 50€ – Für Apps, Spiele, Musik, Filme und iCloud. iPhone und iPad kompatibel.",
+      "en": "Apple Credit €50 – For apps, games, music, movies and iCloud. iPhone and iPad compatible."
+    },
+    "image": "/images/products/apple-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["mobile", "apple", "ios", "beliebt"]
+  },
+  {
+    "id": "google-play-50",
+    "name": "Google Play 50€",
+    "category": "mobile",
+    "brand": "Google",
+    "price": 50.00,
+    "margin": 0.07,
+    "currency": "EUR",
+    "description": {
+      "de": "Google Play Guthaben 50€ – Für Android Apps, Spiele, Filme und Bücher. Sofortige Lieferung.",
+      "en": "Google Play Credit €50 – For Android apps, games, movies and books. Instant delivery."
+    },
+    "image": "/images/products/google-play-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["mobile", "android", "google"]
+  },
+  {
+    "id": "roblox-25",
+    "name": "Roblox 25€",
+    "category": "gaming",
+    "brand": "Roblox",
+    "price": 25.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "Roblox Guthaben 25€ – Kaufe Robux und Premium-Abos. Perfekt für junge Gamer.",
+      "en": "Roblox Credit €25 – Buy Robux and Premium subscriptions. Perfect for young gamers."
+    },
+    "image": "/images/products/roblox-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "roblox", "kinder"]
+  },
+  {
+    "id": "amazon-50",
+    "name": "Amazon.de Geschenkgutschein 50€",
+    "category": "shopping",
+    "brand": "Amazon",
+    "price": 50.00,
+    "margin": 0.05,
+    "currency": "EUR",
+    "description": {
+      "de": "Amazon.de Geschenkgutschein 50€ – Einlösbar für Millionen von Produkten auf Amazon.de.",
+      "en": "Amazon.de Gift Card €50 – Redeemable for millions of products on Amazon.de."
+    },
+    "image": "/images/products/amazon-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["shopping", "amazon", "geschenk"]
+  },
+  {
+    "id": "xbox-game-pass-15",
+    "name": "Xbox Game Pass 15€",
+    "category": "gaming",
+    "brand": "Xbox",
+    "price": 15.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "Xbox Game Pass 15€ – 1 Monat Zugriff auf hunderte Spiele für Xbox und PC. Sofortige Lieferung.",
+      "en": "Xbox Game Pass €15 – 1 month access to hundreds of games for Xbox and PC. Instant delivery."
+    },
+    "image": "/images/products/xbox-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "xbox", "subscription"]
+  },
+  {
+    "id": "playstation-plus-25",
+    "name": "PlayStation Plus 25€",
+    "category": "gaming",
+    "brand": "PlayStation",
+    "price": 25.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "PlayStation Plus 25€ – 3 Monate Online-Multiplayer und kostenlose Spiele. Sofortige Lieferung.",
+      "en": "PlayStation Plus €25 – 3 months online multiplayer and free games. Instant delivery."
+    },
+    "image": "/images/products/playstation-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "playstation", "subscription"]
+  }
+]
