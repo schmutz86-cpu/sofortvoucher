@@ -89,7 +89,8 @@ export default function CheckoutPage() {
       // Redirect to Stripe Checkout
       const stripe = await stripePromise;
       if (stripe) {
-        const { error } = await (stripe as any).redirectToCheckout({ sessionId });
+        // @ts-ignore - Stripe redirectToCheckout exists at runtime
+        const { error } = await stripe.redirectToCheckout({ sessionId });
         if (error) {
           throw error;
         }
