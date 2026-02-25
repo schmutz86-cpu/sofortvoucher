@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useCart } from '@/lib/CartContext';
 import { useLanguage } from '@/lib/LanguageContext';
 import { useRouter } from 'next/navigation';
-import { loadStripe } from '@stripe/stripe-js';
+import { loadStripe, Stripe } from '@stripe/stripe-js';
 
 // Initialize Stripe outside component to avoid recreating
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || 'pk_live_51T25gBBpWM9f8xdpE7CuvVfchwRmW54jcDCKlPdz3JVd2XT5Ki6lKny1qdZRr1N0rOdkDRGtxnpz9gr0em6JyOaL00F3nFIBq4');
@@ -89,7 +89,7 @@ export default function CheckoutPage() {
       // Redirect to Stripe Checkout
       const stripe = await stripePromise;
       if (stripe) {
-        const { error } = await stripe.redirectToCheckout({ sessionId });
+        const { error } = await (stripe as Stripe).redirectToCheckout({ sessionId });
         if (error) {
           throw error;
         }
