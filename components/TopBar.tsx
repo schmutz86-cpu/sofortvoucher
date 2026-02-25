@@ -11,8 +11,6 @@ export default function TopBar() {
 
   const languages: { code: Language; flag: string; name: string }[] = [
     { code: 'de', flag: '🇩🇪', name: 'Deutsch' },
-    { code: 'fr', flag: '🇫🇷', name: 'Français' },
-    { code: 'it', flag: '🇮🇹', name: 'Italiano' },
     { code: 'en', flag: '🇬🇧', name: 'English' },
   ];
 
@@ -24,7 +22,7 @@ export default function TopBar() {
         <div className="flex items-center justify-between h-14">
           {/* Logo */}
           <a href="/" className="text-white font-bold text-lg">
-            Guthabenkarten.ch
+            sofortvoucher.de
           </a>
 
           {/* Right side: Cart + Language */}
