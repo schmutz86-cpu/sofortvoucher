@@ -6,18 +6,18 @@ import TopBar from '@/components/TopBar';
 import { useLanguage } from '@/lib/LanguageContext';
 import { siteConfig } from '@/lib/config';
 
-// Brand images - using local SVG files for reliability
+// Brand images - using real logos from Wikipedia (PNG format)
 const brandImages: Record<string, string> = {
-  'Steam': '/brands/steam.svg',
-  'PlayStation': '/brands/playstation.svg',
-  'Xbox': '/brands/xbox.svg',
-  'Nintendo': '/brands/nintendo.svg',
-  'Netflix': '/brands/netflix.svg',
-  'Spotify': '/brands/spotify.svg',
-  'Apple': '/brands/apple.svg',
-  'Google': '/brands/google.svg',
-  'Roblox': '/brands/roblox.svg',
-  'Amazon': '/brands/amazon.svg',
+  'Steam': '/brands/steam.png',
+  'PlayStation': '/brands/playstation.png',
+  'Xbox': '/brands/xbox.png',
+  'Nintendo': '/brands/nintendo.png',
+  'Netflix': '/brands/netflix.png',
+  'Spotify': '/brands/spotify.png',
+  'Apple': '/brands/apple.png',
+  'Google': '/brands/google.png',
+  'Roblox': '/brands/roblox.png',
+  'Amazon': '/brands/amazon.png',
 };
 
 export default function HomePage() {
@@ -208,7 +208,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-4 sm:pt-6 text-center text-slate-500 text-xs">
-            {t.footer.copyright} | <span className="text-blue-400 font-semibold">v2.2-2026.02.26</span>
+            {t.footer.copyright} | <span className="text-blue-400 font-semibold">v2.3-2026.02.26</span>
           </div>
         </div>
       </footer>

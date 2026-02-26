@@ -1,7 +1,7 @@
 [
   {
     "id": "steam-50",
-    "name": "Steam Guthaben 50€",
+    "name": "Steam Guthaben",
     "category": "gaming",
     "brand": "Steam",
     "price": 50.00,
@@ -19,7 +19,7 @@
   },
   {
     "id": "playstation-50",
-    "name": "PlayStation Store 50€",
+    "name": "PlayStation Store",
     "category": "gaming",
     "brand": "PlayStation",
     "price": 50.00,
@@ -37,7 +37,7 @@
   },
   {
     "id": "xbox-50",
-    "name": "Xbox Live 50€",
+    "name": "Xbox Live",
     "category": "gaming",
     "brand": "Xbox",
     "price": 50.00,
@@ -55,7 +55,7 @@
   },
   {
     "id": "nintendo-50",
-    "name": "Nintendo eShop 50€",
+    "name": "Nintendo eShop",
     "category": "gaming",
     "brand": "Nintendo",
     "price": 50.00,
@@ -73,7 +73,7 @@
   },
   {
     "id": "netflix-25",
-    "name": "Netflix Geschenkkarte 25€",
+    "name": "Netflix Geschenkkarte",
     "category": "streaming",
     "brand": "Netflix",
     "price": 25.00,
@@ -91,7 +91,7 @@
   },
   {
     "id": "spotify-30",
-    "name": "Spotify Premium 30€",
+    "name": "Spotify Premium",
     "category": "streaming",
     "brand": "Spotify",
     "price": 30.00,
@@ -109,7 +109,7 @@
   },
   {
     "id": "apple-50",
-    "name": "Apple App Store & iTunes 50€",
+    "name": "Apple App Store & iTunes",
     "category": "mobile",
     "brand": "Apple",
     "price": 50.00,
@@ -127,7 +127,7 @@
   },
   {
     "id": "google-play-50",
-    "name": "Google Play 50€",
+    "name": "Google Play",
     "category": "mobile",
     "brand": "Google",
     "price": 50.00,
@@ -145,7 +145,7 @@
   },
   {
     "id": "roblox-25",
-    "name": "Roblox 25€",
+    "name": "Roblox",
     "category": "gaming",
     "brand": "Roblox",
     "price": 25.00,
@@ -163,7 +163,7 @@
   },
   {
     "id": "amazon-50",
-    "name": "Amazon.de Geschenkgutschein 50€",
+    "name": "Amazon.de Geschenkgutschein",
     "category": "shopping",
     "brand": "Amazon",
     "price": 50.00,
@@ -181,7 +181,7 @@
   },
   {
     "id": "xbox-game-pass-15",
-    "name": "Xbox Game Pass 15€",
+    "name": "Xbox Game Pass",
     "category": "gaming",
     "brand": "Xbox",
     "price": 15.00,
@@ -199,7 +199,7 @@
   },
   {
     "id": "playstation-plus-25",
-    "name": "PlayStation Plus 25€",
+    "name": "PlayStation Plus",
     "category": "gaming",
     "brand": "PlayStation",
     "price": 25.00,

@@ -5,18 +5,18 @@ import { AddToCartButton } from '@/components/AddToCartButton';
 import { useLanguage } from '@/lib/LanguageContext';
 import { siteConfig } from '@/lib/config';
 
-// Brand images - using local SVG files for reliability
+// Brand images - using real logos from Wikipedia (PNG format)
 const brandImages: Record<string, string> = {
-  'Steam': '/brands/steam.svg',
-  'PlayStation': '/brands/playstation.svg',
-  'Xbox': '/brands/xbox.svg',
-  'Nintendo': '/brands/nintendo.svg',
-  'Netflix': '/brands/netflix.svg',
-  'Spotify': '/brands/spotify.svg',
-  'Apple': '/brands/apple.svg',
-  'Google': '/brands/google.svg',
-  'Roblox': '/brands/roblox.svg',
-  'Amazon': '/brands/amazon.svg',
+  'Steam': '/brands/steam.png',
+  'PlayStation': '/brands/playstation.png',
+  'Xbox': '/brands/xbox.png',
+  'Nintendo': '/brands/nintendo.png',
+  'Netflix': '/brands/netflix.png',
+  'Spotify': '/brands/spotify.png',
+  'Apple': '/brands/apple.png',
+  'Google': '/brands/google.png',
+  'Roblox': '/brands/roblox.png',
+  'Amazon': '/brands/amazon.png',
 };
 
 // Extended product info with translations
