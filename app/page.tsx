@@ -208,7 +208,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-4 sm:pt-6 text-center text-slate-500 text-xs">
-            {t.footer.copyright}
+            {t.footer.copyright} | <span className="text-blue-400 font-semibold">v2.0-2026.02.26</span>
           </div>
         </div>
       </footer>
