@@ -6,18 +6,18 @@ import TopBar from '@/components/TopBar';
 import { useLanguage } from '@/lib/LanguageContext';
 import { siteConfig } from '@/lib/config';
 
-// Brand images - using Wikipedia thumbnails for reliability
+// Brand images - using reliable CDN sources
 const brandImages: Record<string, string> = {
-  'Steam': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/200px-Steam_icon_logo.svg.png',
-  'PlayStation': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/200px-Playstation_logo_colour.svg.png',
-  'Xbox': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/200px-Xbox_one_logo.svg.png',
-  'Nintendo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/200px-Nintendo.svg.png',
-  'Netflix': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_logo.svg/200px-Netflix_2015_logo.svg.png',
-  'Spotify': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/200px-Spotify_logo_without_text.svg.png',
-  'Apple': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/200px-Apple_logo_black.svg.png',
-  'Google': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/200px-Google_%22G%22_Logo.svg.png',
-  'Roblox': 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Roblox_logo_2022.svg/200px-Roblox_logo_2022.svg.png',
-  'Amazon': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png',
+  'Steam': 'https://cdn.simpleicons.org/steam/000000',
+  'PlayStation': 'https://cdn.simpleicons.org/playstation/003791',
+  'Xbox': 'https://cdn.simpleicons.org/xbox/107C10',
+  'Nintendo': 'https://cdn.simpleicons.org/nintendo/E60012',
+  'Netflix': 'https://cdn.simpleicons.org/netflix/E50914',
+  'Spotify': 'https://cdn.simpleicons.org/spotify/1DB954',
+  'Apple': 'https://cdn.simpleicons.org/apple/000000',
+  'Google': 'https://cdn.simpleicons.org/google/4285F4',
+  'Roblox': 'https://cdn.simpleicons.org/roblox/000000',
+  'Amazon': 'https://cdn.simpleicons.org/amazon/FF9900',
 };
 
 export default function HomePage() {
@@ -101,10 +101,7 @@ export default function HomePage() {
                 {getProductDescription(product)}
               </p>
               
-              <div className="flex items-center justify-between">
-                <span className="text-base sm:text-lg font-bold text-blue-400">
-                  €{product.price.toFixed(0)} EUR
-                </span>
+              <div className="flex items-center justify-end">
                 <span className="text-green-400 text-xs flex items-center gap-1">
                   <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-green-400 rounded-full"></span>
                   <span className="hidden sm:inline">{t.common.secure}</span>
@@ -147,10 +144,9 @@ export default function HomePage() {
                 </div>
               </div>
               
-              <div className="flex items-center justify-between">
-                <span className="text-blue-400 font-bold text-sm sm:text-base">€{product.price.toFixed(0)} EUR</span>
+              <div className="flex items-center justify-end">
                 {product.inStock && (
-                  <span className="text-green-400 text-[10px] sm:text-xs">✓</span>
+                  <span className="text-green-400 text-[10px] sm:text-xs">✓ {language === 'de' ? 'Verfügbar' : 'Available'}</span>
                 )}
               </div>
             </Link>

@@ -95,7 +95,7 @@ export const translations: Record<Language, Translations> = {
     },
     home: {
       hero: '🎮 sofortvoucher.de',
-      heroSubtitle: 'Gaming, Streaming & Shopping Cards – Sofort per E-Mail – 100% Sicher',
+      heroSubtitle: 'Gaming, Streaming & Shopping Cards: Sofort per E-Mail. 100% Sicher.',
       featuredProducts: 'Beliebteste Cards',
       allProducts: 'Alle Guthabenkarten',
     },
@@ -154,7 +154,7 @@ export const translations: Record<Language, Translations> = {
     },
     home: {
       hero: '🎮 sofortvoucher.de',
-      heroSubtitle: 'Gaming, Streaming & Shopping Cards – Instant Email Delivery – 100% Secure',
+      heroSubtitle: 'Gaming, Streaming & Shopping Cards: Instant Email Delivery. 100% Secure.',
       featuredProducts: 'Popular Cards',
       allProducts: 'All Gift Cards',
     },
