@@ -15,7 +15,7 @@ const brandImages: Record<string, string> = {
   'Spotify': '/brands/spotify.png',
   'Apple': '/brands/apple.png',
   'Google': '/brands/google.png',
-  'Roblox': '/brands/roblox.png',
+  'Roblox': '/brands/roblox.svg',
   'Amazon': '/brands/amazon.png',
 };
 
