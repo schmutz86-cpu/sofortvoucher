@@ -5,18 +5,18 @@ import { AddToCartButton } from '@/components/AddToCartButton';
 import { useLanguage } from '@/lib/LanguageContext';
 import { siteConfig } from '@/lib/config';
 
-// Brand images - using reliable CDN sources
+// Brand images - using local SVG files for reliability
 const brandImages: Record<string, string> = {
-  'Steam': 'https://cdn.simpleicons.org/steam/000000',
-  'PlayStation': 'https://cdn.simpleicons.org/playstation/003791',
-  'Xbox': 'https://cdn.simpleicons.org/xbox/107C10',
-  'Nintendo': 'https://cdn.simpleicons.org/nintendo/E60012',
-  'Netflix': 'https://cdn.simpleicons.org/netflix/E50914',
-  'Spotify': 'https://cdn.simpleicons.org/spotify/1DB954',
-  'Apple': 'https://cdn.simpleicons.org/apple/000000',
-  'Google': 'https://cdn.simpleicons.org/google/4285F4',
-  'Roblox': 'https://cdn.simpleicons.org/roblox/000000',
-  'Amazon': 'https://cdn.simpleicons.org/amazon/FF9900',
+  'Steam': '/brands/steam.svg',
+  'PlayStation': '/brands/playstation.svg',
+  'Xbox': '/brands/xbox.svg',
+  'Nintendo': '/brands/nintendo.svg',
+  'Netflix': '/brands/netflix.svg',
+  'Spotify': '/brands/spotify.svg',
+  'Apple': '/brands/apple.svg',
+  'Google': '/brands/google.svg',
+  'Roblox': '/brands/roblox.svg',
+  'Amazon': '/brands/amazon.svg',
 };
 
 // Extended product info with translations
