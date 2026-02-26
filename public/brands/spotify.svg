@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="#1DB954" width="100" height="100"/><text x="50" y="65" font-family="Arial" font-size="32" font-weight="bold" text-anchor="middle" fill="white">♪</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#1DB954"/>
+  <path d="M 35 45 C 35 40 40 38 50 40 C 60 42 70 45 70 50 C 70 55 60 52 50 50 C 40 48 35 50 35 45" fill="white"/>
+  <path d="M 35 55 C 35 50 40 48 50 50 C 60 52 70 55 70 60 C 70 65 60 62 50 60 C 40 58 35 60 35 55" fill="white"/>
+  <path d="M 35 65 C 35 60 40 58 50 60 C 60 62 65 65 65 68 C 65 71 60 70 50 68 C 40 66 35 68 35 65" fill="white"/>
+</svg>
