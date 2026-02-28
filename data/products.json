@@ -8,8 +8,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "Steam Guthaben 50€ – Kaufe tausende PC-Spiele, Indie-Games, DLCs und Software im größten Gaming-Store der Welt. Einlösbar für Steam, Counter-Strike, Dota 2, und über 50.000 Titel.",
-      "en": "Steam Credit €50 – Buy thousands of PC games, indie games, DLCs and software in the world's largest gaming store. Redeemable for Steam, Counter-Strike, Dota 2, and over 50,000 titles."
+      "de": "50€ Steam Guthaben – Dein Zugang zu über 70.000 Spielen. Kaufe AAA-Titel, Indie-Games und DLCs ohne Kreditkarte. Perfekt für Steam Sales – schütze deine Privatsphäre mit Prepaid-Guthaben. Code kommt in 60 Sekunden per E-Mail.",
+      "en": "€50 Steam Credit – Your gateway to over 70,000 games. Buy AAA titles, indie games and DLCs without a credit card. Perfect for Steam Sales – protect your privacy with prepaid credit. Code delivered in 60 seconds via email."
     },
     "image": "/images/products/steam-card.jpg",
     "inStock": true,
@@ -80,8 +80,8 @@
     "margin": 0.06,
     "currency": "EUR",
     "description": {
-      "de": "Netflix Geschenkkarte 25€ – Perfekt zum Verschenken. Einlösbar für Netflix-Abos in Deutschland.",
-      "en": "Netflix Gift Card €25 – Perfect for gifting. Redeemable for Netflix subscriptions in Germany."
+      "de": "Netflix Geschenkkarte 25€ – Unbegrenzte Serien & Filme, ohne Abo-Vertrag. Ideal zum Verschenken oder selbst nutzen. Einlösbar für alle Netflix-Tarife in Deutschland. Code sofort per E-Mail.",
+      "en": "Netflix Gift Card €25 – Unlimited series & movies, no subscription required. Perfect for gifting or personal use. Redeemable for all Netflix plans in Germany. Code delivered instantly via email."
     },
     "image": "/images/products/netflix-card.jpg",
     "inStock": true,
