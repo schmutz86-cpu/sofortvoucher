@@ -1,5 +1,23 @@
 [
   {
+    "id": "steam-20",
+    "name": "Steam Guthaben",
+    "category": "gaming",
+    "brand": "Steam",
+    "price": 20.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "20€ Steam Guthaben – Der kleine Einstieg in die Welt von Steam. Kaufe Indie-Games, DLCs oder lade nach. Code in 60 Sekunden per E-Mail. ✅ Über 70.000 Spiele ✅ Keine Kreditkarte ✅ Sofort lieferbar",
+      "en": "€20 Steam Credit – The small entry into the world of Steam. Buy indie games, DLCs or top up. Code delivered in 60 seconds via email. ✅ Over 70,000 games ✅ No credit card ✅ Instant delivery"
+    },
+    "image": "/images/products/steam-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "steam", "pc"]
+  },
+  {
     "id": "steam-50",
     "name": "Steam Guthaben",
     "category": "gaming",
@@ -16,6 +34,42 @@
     "deliveryTime": "30-60 Sekunden",
     "region": "DE",
     "tags": ["gaming", "steam", "pc", "beliebt"]
+  },
+  {
+    "id": "steam-100",
+    "name": "Steam Guthaben",
+    "category": "gaming",
+    "brand": "Steam",
+    "price": 100.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "100€ Steam Guthaben – Der ultimative Gaming-Bonus! Kaufe mehrere AAA-Titel oder spare für den nächsten Steam Sale. Beste Wertanlage für Gamer. Code in 60 Sekunden per E-Mail. ✅ Maximaler Wert ✅ Ideal für Sales ✅ Keine Kreditkarte",
+      "en": "€100 Steam Credit – The ultimate gaming bonus! Buy multiple AAA titles or save for the next Steam Sale. Best investment for gamers. Code delivered in 60 seconds via email. ✅ Maximum value ✅ Ideal for sales ✅ No credit card"
+    },
+    "image": "/images/products/steam-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "steam", "pc"]
+  },
+  {
+    "id": "playstation-20",
+    "name": "PlayStation Store",
+    "category": "gaming",
+    "brand": "PlayStation",
+    "price": 20.00,
+    "margin": 0.08,
+    "currency": "EUR",
+    "description": {
+      "de": "20€ PlayStation Store Guthaben – Klein aber fein. Kaufe DLCs, In-Game-Währung oder Indie-Games für PS5 & PS4. Code in 60 Sekunden. ✅ PS5 & PS4 ✅ Keine Kreditkarte ✅ Sofort lieferbar",
+      "en": "€20 PlayStation Store Credit – Small but fine. Buy DLCs, in-game currency or indie games for PS5 & PS4. Code delivered in 60 seconds. ✅ PS5 & PS4 ✅ No credit card ✅ Instant delivery"
+    },
+    "image": "/images/products/playstation-card.jpg",
+    "inStock": true,
+    "deliveryTime": "30-60 Sekunden",
+    "region": "DE",
+    "tags": ["gaming", "playstation", "console"]
   },
   {
     "id": "playstation-50",
@@ -62,8 +116,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "Nintendo eShop Guthaben 50€ – Für Nintendo Switch Spiele und DLCs. Sofortige Lieferung.",
-      "en": "Nintendo eShop Credit €50 – For Nintendo Switch games and DLCs. Instant delivery."
+      "de": "50€ Nintendo eShop Guthaben – Für Zelda, Mario, Pokémon und alle Switch-Spiele. Kaufe digitale Games, DLCs und Nintendo Switch Online ohne Kreditkarte. Der perfekte Bonus für deine Konsole. Code in 60 Sekunden per E-Mail. ✅ Für alle Switch-Modelle ✅ Keine Kreditkarte nötig ✅ Ideal als Geschenk",
+      "en": "€50 Nintendo eShop Credit – For Zelda, Mario, Pokémon and all Switch games. Buy digital games, DLCs and Nintendo Switch Online without a credit card. The perfect bonus for your console. Code delivered in 60 seconds via email. ✅ For all Switch models ✅ No credit card needed ✅ Perfect as a gift"
     },
     "image": "/images/products/nintendo-card.jpg",
     "inStock": true,
@@ -80,8 +134,8 @@
     "margin": 0.06,
     "currency": "EUR",
     "description": {
-      "de": "Netflix Geschenkkarte 25€ – Unbegrenzte Serien & Filme, ohne Abo-Vertrag. Ideal zum Verschenken oder selbst nutzen. Einlösbar für alle Netflix-Tarife in Deutschland. Code sofort per E-Mail.",
-      "en": "Netflix Gift Card €25 – Unlimited series & movies, no subscription required. Perfect for gifting or personal use. Redeemable for all Netflix plans in Germany. Code delivered instantly via email."
+      "de": "25€ Netflix Geschenkkarte – Unbegrenzte Serien & Filme, ganz ohne Abo-Falle. Von Stranger Things über Squid Game bis zum neuesten Netflix-Hit. Einlösbar für alle Tarife – auch 4K Premium. Perfekt zum Verschenken! Code sofort per E-Mail. ✅ Kein Abo nötig ✅ Für alle Tarife ✅ Das perfekte Geschenk",
+      "en": "€25 Netflix Gift Card – Unlimited series & movies, no subscription trap. From Stranger Things to Squid Game to the latest Netflix hit. Redeemable for all plans – including 4K Premium. Perfect for gifting! Code delivered instantly via email. ✅ No subscription needed ✅ For all plans ✅ The perfect gift"
     },
     "image": "/images/products/netflix-card.jpg",
     "inStock": true,
@@ -116,8 +170,8 @@
     "margin": 0.07,
     "currency": "EUR",
     "description": {
-      "de": "Apple Guthaben 50€ – Für Apps, Spiele, Musik, Filme und iCloud. iPhone und iPad kompatibel.",
-      "en": "Apple Credit €50 – For apps, games, music, movies and iCloud. iPhone and iPad compatible."
+      "de": "50€ Apple Guthaben – Ein Code für alles: Apps, Spiele, Apple Music, Filme, iCloud+ und mehr. Lade dein iPhone, iPad oder Mac auf – ohne Kreditkarte. Perfekt für In-App-Käufe und Abos. Code in 60 Sekunden. ✅ Für alle Apple-Geräte ✅ Anonym zahlen ✅ Keine Kreditkarte",
+      "en": "€50 Apple Credit – One code for everything: apps, games, Apple Music, movies, iCloud+ and more. Top up your iPhone, iPad or Mac – without a credit card. Perfect for in-app purchases and subscriptions. Code delivered in 60 seconds. ✅ For all Apple devices ✅ Pay anonymously ✅ No credit card"
     },
     "image": "/images/products/apple-card.jpg",
     "inStock": true,
@@ -134,8 +188,8 @@
     "margin": 0.07,
     "currency": "EUR",
     "description": {
-      "de": "Google Play Guthaben 50€ – Für Android Apps, Spiele, Filme und Bücher. Sofortige Lieferung.",
-      "en": "Google Play Credit €50 – For Android apps, games, movies and books. Instant delivery."
+      "de": "50€ Google Play Guthaben – Dein Schlüssel zu Millionen Android Apps, Spielen, Filmen und Büchern. Kaufe In-Game-Währung, YouTube Premium oder Google One Speicher – sicher und anonym. Code in unter 1 Minute. ✅ Für alle Android-Geräte ✅ Auch für YouTube ✅ Keine Bankdaten nötig",
+      "en": "€50 Google Play Credit – Your key to millions of Android apps, games, movies and books. Buy in-game currency, YouTube Premium or Google One storage – secure and anonymous. Code delivered in under 1 minute. ✅ For all Android devices ✅ Also for YouTube ✅ No bank details needed"
     },
     "image": "/images/products/google-play-card.jpg",
     "inStock": true,
@@ -152,8 +206,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "Roblox Guthaben 25€ – Kaufe Robux und Premium-Abos. Perfekt für junge Gamer.",
-      "en": "Roblox Credit €25 – Buy Robux and Premium subscriptions. Perfect for young gamers."
+      "de": "25€ Roblox Guthaben – Kaufe Robux für Skins, Game-Passes und Premium. Über 40 Millionen Spiele und Erlebnisse warten! Sicher für Kinder – keine Kreditkarte oder Bankverbindung nötig. Code sofort per E-Mail. ✅ Für Robux & Premium ✅ Kindersicher ✅ Keine Bankdaten",
+      "en": "€25 Roblox Credit – Buy Robux for skins, game passes and Premium. Over 40 million games and experiences await! Safe for kids – no credit card or bank connection needed. Code delivered instantly via email. ✅ For Robux & Premium ✅ Child-safe ✅ No bank details"
     },
     "image": "/images/products/roblox-card.jpg",
     "inStock": true,
@@ -170,8 +224,8 @@
     "margin": 0.05,
     "currency": "EUR",
     "description": {
-      "de": "Amazon.de Geschenkgutschein 50€ – Einlösbar für Millionen von Produkten auf Amazon.de.",
-      "en": "Amazon.de Gift Card €50 – Redeemable for millions of products on Amazon.de."
+      "de": "50€ Amazon.de Gutschein – Einlösbar für Millionen Produkte: Elektronik, Bücher, Haushalt, Prime und mehr. Der ultimative Geschenkgutschein für jeden Anlass. Code sofort per E-Mail. ✅ Alles auf Amazon.de ✅ Nie verfallen ✅ Das perfekte Geschenk",
+      "en": "€50 Amazon.de Voucher – Redeemable for millions of products: electronics, books, household, Prime and more. The ultimate gift card for any occasion. Code delivered instantly via email. ✅ Everything on Amazon.de ✅ Never expires ✅ The perfect gift"
     },
     "image": "/images/products/amazon-card.jpg",
     "inStock": true,
@@ -188,8 +242,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "Xbox Game Pass 15€ – 1 Monat Zugriff auf hunderte Spiele für Xbox und PC. Sofortige Lieferung.",
-      "en": "Xbox Game Pass €15 – 1 month access to hundreds of games for Xbox and PC. Instant delivery."
+      "de": "15€ Xbox Game Pass – 1 Monat Zugang zu hunderten Top-Spielen für Xbox und PC. Day-One-Releases, EA Play inklusive. Teste den 'Netflix für Games' ohne Abo-Falle. Code sofort per E-Mail. ✅ Hunderte Spiele ✅ Day-One-Releases ✅ Für Xbox & PC",
+      "en": "€15 Xbox Game Pass – 1 month access to hundreds of top games for Xbox and PC. Day-one releases, EA Play included. Try the 'Netflix for games' without subscription trap. Code delivered instantly via email. ✅ Hundreds of games ✅ Day-one releases ✅ For Xbox & PC"
     },
     "image": "/images/products/xbox-card.jpg",
     "inStock": true,
@@ -206,8 +260,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "PlayStation Plus 25€ – 3 Monate Online-Multiplayer und kostenlose Spiele. Sofortige Lieferung.",
-      "en": "PlayStation Plus €25 – 3 months online multiplayer and free games. Instant delivery."
+      "de": "25€ PlayStation Plus – 3 Monate Online-Multiplayer, kostenlose Spiele und exklusive Rabatte. Essential für jeden PS5/PS4 Besitzer. Spiele online mit Freunden und hol dir monatlich Gratis-Games. Code in 60 Sekunden. ✅ Online-Multiplayer ✅ Kostenlose Spiele ✅ Exklusive Rabatte",
+      "en": "€25 PlayStation Plus – 3 months online multiplayer, free games and exclusive discounts. Essential for every PS5/PS4 owner. Play online with friends and get monthly free games. Code delivered in 60 seconds. ✅ Online multiplayer ✅ Free games ✅ Exclusive discounts"
     },
     "image": "/images/products/playstation-card.jpg",
     "inStock": true,
