@@ -18,6 +18,28 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "sofortvoucher.de - Gaming Guthabenkarten | Sofortlieferung",
   description: "Gaming Guthabenkarten für Steam, PlayStation, Xbox, Nintendo und mehr. Sofortlieferung per E-Mail. EUR Preise, 100% sicher.",
+  keywords: ["Steam Guthaben", "PlayStation Store", "Xbox Live", "Nintendo eShop", "Netflix Geschenkkarte", "Spotify Premium", "Gaming Guthabenkarten Deutschland"],
+  authors: [{ name: "sofortvoucher.de" }],
+  openGraph: {
+    title: "sofortvoucher.de - Gaming Guthabenkarten | Sofortlieferung",
+    description: "Gaming Guthabenkarten für Steam, PlayStation, Xbox, Nintendo und mehr. Sofortlieferung per E-Mail. EUR Preise, 100% sicher.",
+    url: "https://sofortvoucher.de",
+    siteName: "sofortvoucher.de",
+    locale: "de_DE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "sofortvoucher.de - Gaming Guthabenkarten",
+    description: "Gaming Guthabenkarten für Steam, PlayStation, Xbox, Nintendo und mehr. Sofortlieferung per E-Mail.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://sofortvoucher.de",
+  },
 };
 
 export default function RootLayout({
