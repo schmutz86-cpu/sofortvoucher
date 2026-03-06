@@ -26,8 +26,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "PlayStation Store Guthaben 50€ – Für PS5, PS4 und PS3. Sofortiger Download per E-Mail.",
-      "en": "PlayStation Store Credit €50 – For PS5, PS4 and PS3. Instant download via email."
+      "de": "50€ PlayStation Store Guthaben – Lade deine PSN-Wallet auf und entdecke die besten PS5 & PS4 Spiele. Kaufe Exklusivtitel wie Spider-Man, God of War oder GTA ohne Kreditkarte. Code in 60 Sekunden per E-Mail. ✅ Sofort einlösbar ✅ Keine Kreditkarte nötig ✅ Perfekt als Geschenk",
+      "en": "€50 PlayStation Store Credit – Top up your PSN Wallet and discover the best PS5 & PS4 games. Buy exclusive titles like Spider-Man, God of War or GTA without a credit card. Code delivered in 60 seconds via email. ✅ Instant redemption ✅ No credit card needed ✅ Perfect as a gift"
     },
     "image": "/images/products/playstation-card.jpg",
     "inStock": true,
@@ -44,8 +44,8 @@
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "Xbox Live Guthaben 50€ – Für Xbox Series X|S, Xbox One und Windows. Sofortige Lieferung.",
-      "en": "Xbox Live Credit €50 – For Xbox Series X|S, Xbox One and Windows. Instant delivery."
+      "de": "50€ Xbox Guthaben – Dein Ticket für Xbox Series X|S, Xbox One und PC. Kaufe die neuesten Games, Game Pass Abo oder In-Game-Content. Mit Prepaid anonym zahlen, keine Bankdaten nötig. Code kommt in unter 1 Minute. ✅ Für Xbox & PC ✅ Anonym & sicher ✅ 24/7 Lieferung",
+      "en": "€50 Xbox Credit – Your ticket for Xbox Series X|S, Xbox One and PC. Buy the latest games, Game Pass subscription or in-game content. Pay anonymously with prepaid, no bank details needed. Code delivered in under 1 minute. ✅ For Xbox & PC ✅ Anonymous & secure ✅ 24/7 delivery"
     },
     "image": "/images/products/xbox-card.jpg",
     "inStock": true,
@@ -98,8 +98,8 @@
     "margin": 0.06,
     "currency": "EUR",
     "description": {
-      "de": "Spotify Premium Guthaben 30€ – 3 Monate werbefreies Musik-Streaming. Sofortige Lieferung.",
-      "en": "Spotify Premium Credit €30 – 3 months of ad-free music streaming. Instant delivery."
+      "de": "30€ Spotify Premium Guthaben – 3 Monate werbefreie Musik ohne Abo-Falle. Streame über 100 Millionen Songs, höre Offline und genieße Premium-Sound. Ideal zum Verschenken oder selbst nutzen. Code sofort per E-Mail. ✅ Kein Abo nötig ✅ Offline-Modus ✅ Perfektes Geschenk",
+      "en": "€30 Spotify Premium Credit – 3 months ad-free music without subscription trap. Stream over 100 million songs, listen offline and enjoy premium sound. Perfect for gifting or personal use. Code delivered instantly via email. ✅ No subscription needed ✅ Offline mode ✅ Perfect gift"
     },
     "image": "/images/products/spotify-card.jpg",
     "inStock": true,
