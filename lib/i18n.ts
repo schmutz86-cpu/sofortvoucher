@@ -19,6 +19,7 @@ export interface Translations {
   product: {
     description: string;
     denominations: string;
+    whatYouCanBuy: string;
     examples: string;
     deliveryInfo: string;
     deliveryMethod: string;
@@ -78,7 +79,8 @@ export const translations: Record<Language, Translations> = {
     },
     product: {
       description: 'Beschreibung',
-      denominations: 'Wofür kann ich es verwenden?',
+      denominations: 'Betrag wählen',
+      whatYouCanBuy: 'Was du kaufen kannst',
       examples: 'Beispiele:',
       deliveryInfo: 'Lieferung & Sicherheit',
       deliveryMethod: 'Zustellung: Per E-Mail mit Anleitung',
@@ -137,7 +139,8 @@ export const translations: Record<Language, Translations> = {
     },
     product: {
       description: 'Description',
-      denominations: 'What can I use it for?',
+      denominations: 'Select Amount',
+      whatYouCanBuy: 'What you can buy',
       examples: 'Examples:',
       deliveryInfo: 'Delivery & Security',
       deliveryMethod: 'Delivery: Via email with instructions',
