@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
       
       console.log('✅ Payment confirmed for:', customerEmail);
       console.log('🛒 Order items:', orderItems);
-      console.log('💰 Amount:', session.amount_total, 'CHF');
+      console.log('💰 Amount:', session.amount_total, 'EUR');
       
       // TODO: Process order with Reloadly
       // TODO: Send gift codes via email

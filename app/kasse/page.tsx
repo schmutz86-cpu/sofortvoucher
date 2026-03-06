@@ -119,7 +119,7 @@ export default function KassePage() {
               disabled={loading}
               className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 text-white font-bold py-3 rounded-lg transition"
             >
-              {loading ? 'Lade...' : `Jetzt bezahlen - ${totalPrice.toFixed(2)} CHF`}
+              {loading ? 'Lade...' : `Jetzt bezahlen - €${totalPrice.toFixed(2)}`}
             </button>
           </form>
 

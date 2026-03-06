@@ -44,8 +44,8 @@ export default function CancelPage() {
 
           <p className="text-slate-400 text-sm">
             Fragen? Kontaktiere uns unter{' '}
-            <a href="mailto:info@guthabenkarten.ch" className="text-blue-400 hover:underline">
-              info@guthabenkarten.ch
+            <a href="mailto:info@sofortvoucher.de" className="text-blue-400 hover:underline">
+              info@sofortvoucher.de
             </a>
           </p>
         </div>

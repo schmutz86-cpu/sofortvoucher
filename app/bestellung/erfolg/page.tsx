@@ -73,7 +73,7 @@ function OrderSuccessContent() {
             
             <div className="text-slate-400 text-xs">
               <p>Nichts erhalten? Prüfe deinen Spam-Ordner.</p>
-              <p>Support: info@guthabenkarten.ch</p>
+              <p>Support: info@sofortvoucher.de</p>
             </div>
           </div>
 
@@ -87,7 +87,7 @@ function OrderSuccessContent() {
             
             <div>
               <a 
-                href="mailto:info@guthabenkarten.ch"
+                href="mailto:info@sofortvoucher.de"
                 className="text-blue-400 hover:text-blue-300 text-sm"
               >
                 Hilfe benötigt? Kontaktiere uns

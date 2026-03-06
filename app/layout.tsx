@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Guthabenkarten.ch - Gaming Guthabenkarten | Sofortlieferung",
-  description: "Gaming Guthabenkarten für Steam, PlayStation, Xbox, Nintendo und mehr. Sofortlieferung per E-Mail. CHF Preise, 100% sicher.",
+  title: "sofortvoucher.de - Gaming Guthabenkarten | Sofortlieferung",
+  description: "Gaming Guthabenkarten für Steam, PlayStation, Xbox, Nintendo und mehr. Sofortlieferung per E-Mail. EUR Preise, 100% sicher.",
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ export default function AGBPage() {
         <div className="space-y-6 text-slate-300">
           <section className="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
             <h2 className="text-xl font-semibold text-white mb-4">§1 Geltungsbereich</h2>
-            <p>Diese AGB gelten für alle Bestellungen über unseren Webshop guthabenkarten.ch.</p>
+            <p>Diese AGB gelten für alle Bestellungen über unseren Webshop sofortvoucher.de.</p>
           </section>
 
           <section className="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
@@ -18,19 +18,19 @@ export default function AGBPage() {
 
           <section className="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
             <h2 className="text-xl font-semibold text-white mb-4">§3 Preise</h2>
-            <p>Alle Preise sind in Schweizer Franken (CHF) angegeben und verstehen sich inklusive Mehrwertssteuer.</p>
+            <p>Alle Preise sind in Euro (EUR) angegeben und verstehen sich inklusive Mehrwertsteuer.</p>
           </section>
 
           <section className="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
             <h2 className="text-xl font-semibold text-white mb-4">§4 Rückgabe</h2>
-            <p>Digitalcodes sind von der Rückgabe ausgeschlossen. Bei technischen Problemen wenden Sie sich an info@guthabenkarten.ch.</p>
+            <p>Digitalcodes sind von der Rückgabe ausgeschlossen. Bei technischen Problemen wenden Sie sich an info@sofortvoucher.de.</p>
           </section>
 
           <section className="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
             <h2 className="text-xl font-semibold text-white mb-4">§5 Impressum</h2>
-            <p className="mb-2"><strong>Anbieter:</strong> Guthabenkarten.ch</p>
-            <p className="mb-2"><strong>E-Mail:</strong> info@guthabenkarten.ch</p>
-            <p className="mb-2"><strong>Verantwortlich:</strong> Philipp Schmutz, Würenlos, Schweiz</p>
+            <p className="mb-2"><strong>Anbieter:</strong> sofortvoucher.de</p>
+            <p className="mb-2"><strong>E-Mail:</strong> info@sofortvoucher.de</p>
+            <p className="mb-2"><strong>Verantwortlich:</strong> [Wird nach Gewerbeanmeldung eingetragen]</p>
           </section>
         </div>
       </div>
