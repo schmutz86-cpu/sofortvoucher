@@ -1,33 +1,15 @@
 [
   {
-    "id": "steam-20",
+    "id": "steam",
     "name": "Steam Guthaben",
     "category": "gaming",
     "brand": "Steam",
-    "price": 20.00,
+    "denominations": [20, 50, 100],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "20€ Steam Guthaben – Der kleine Einstieg in die Welt von Steam. Kaufe Indie-Games, DLCs oder lade nach. Code in 60 Sekunden per E-Mail. ✅ Über 70.000 Spiele ✅ Keine Kreditkarte ✅ Sofort lieferbar",
-      "en": "€20 Steam Credit – The small entry into the world of Steam. Buy indie games, DLCs or top up. Code delivered in 60 seconds via email. ✅ Over 70,000 games ✅ No credit card ✅ Instant delivery"
-    },
-    "image": "/images/products/steam-card.jpg",
-    "inStock": true,
-    "deliveryTime": "30-60 Sekunden",
-    "region": "DE",
-    "tags": ["gaming", "steam", "pc"]
-  },
-  {
-    "id": "steam-50",
-    "name": "Steam Guthaben",
-    "category": "gaming",
-    "brand": "Steam",
-    "price": 50.00,
-    "margin": 0.08,
-    "currency": "EUR",
-    "description": {
-      "de": "50€ Steam Guthaben – Dein Zugang zu über 70.000 Spielen. Kaufe AAA-Titel, Indie-Games und DLCs ohne Kreditkarte. Perfekt für Steam Sales – schütze deine Privatsphäre mit Prepaid-Guthaben. Code kommt in 60 Sekunden per E-Mail.",
-      "en": "€50 Steam Credit – Your gateway to over 70,000 games. Buy AAA titles, indie games and DLCs without a credit card. Perfect for Steam Sales – protect your privacy with prepaid credit. Code delivered in 60 seconds via email."
+      "de": "Steam Guthaben – Dein Zugang zu über 70.000 Spielen. Kaufe AAA-Titel, Indie-Games und DLCs ohne Kreditkarte. Perfekt für Steam Sales – schütze deine Privatsphäre mit Prepaid-Guthaben. Code kommt in 60 Sekunden per E-Mail.",
+      "en": "Steam Credit – Your gateway to over 70,000 games. Buy AAA titles, indie games and DLCs without a credit card. Perfect for Steam Sales – protect your privacy with prepaid credit. Code delivered in 60 seconds via email."
     },
     "image": "/images/products/steam-card.jpg",
     "inStock": true,
@@ -36,52 +18,16 @@
     "tags": ["gaming", "steam", "pc", "beliebt"]
   },
   {
-    "id": "steam-100",
-    "name": "Steam Guthaben",
-    "category": "gaming",
-    "brand": "Steam",
-    "price": 100.00,
-    "margin": 0.08,
-    "currency": "EUR",
-    "description": {
-      "de": "100€ Steam Guthaben – Der ultimative Gaming-Bonus! Kaufe mehrere AAA-Titel oder spare für den nächsten Steam Sale. Beste Wertanlage für Gamer. Code in 60 Sekunden per E-Mail. ✅ Maximaler Wert ✅ Ideal für Sales ✅ Keine Kreditkarte",
-      "en": "€100 Steam Credit – The ultimate gaming bonus! Buy multiple AAA titles or save for the next Steam Sale. Best investment for gamers. Code delivered in 60 seconds via email. ✅ Maximum value ✅ Ideal for sales ✅ No credit card"
-    },
-    "image": "/images/products/steam-card.jpg",
-    "inStock": true,
-    "deliveryTime": "30-60 Sekunden",
-    "region": "DE",
-    "tags": ["gaming", "steam", "pc"]
-  },
-  {
-    "id": "playstation-20",
+    "id": "playstation",
     "name": "PlayStation Store",
     "category": "gaming",
     "brand": "PlayStation",
-    "price": 20.00,
+    "denominations": [20, 50],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "20€ PlayStation Store Guthaben – Klein aber fein. Kaufe DLCs, In-Game-Währung oder Indie-Games für PS5 & PS4. Code in 60 Sekunden. ✅ PS5 & PS4 ✅ Keine Kreditkarte ✅ Sofort lieferbar",
-      "en": "€20 PlayStation Store Credit – Small but fine. Buy DLCs, in-game currency or indie games for PS5 & PS4. Code delivered in 60 seconds. ✅ PS5 & PS4 ✅ No credit card ✅ Instant delivery"
-    },
-    "image": "/images/products/playstation-card.jpg",
-    "inStock": true,
-    "deliveryTime": "30-60 Sekunden",
-    "region": "DE",
-    "tags": ["gaming", "playstation", "console"]
-  },
-  {
-    "id": "playstation-50",
-    "name": "PlayStation Store",
-    "category": "gaming",
-    "brand": "PlayStation",
-    "price": 50.00,
-    "margin": 0.08,
-    "currency": "EUR",
-    "description": {
-      "de": "50€ PlayStation Store Guthaben – Lade deine PSN-Wallet auf und entdecke die besten PS5 & PS4 Spiele. Kaufe Exklusivtitel wie Spider-Man, God of War oder GTA ohne Kreditkarte. Code in 60 Sekunden per E-Mail. ✅ Sofort einlösbar ✅ Keine Kreditkarte nötig ✅ Perfekt als Geschenk",
-      "en": "€50 PlayStation Store Credit – Top up your PSN Wallet and discover the best PS5 & PS4 games. Buy exclusive titles like Spider-Man, God of War or GTA without a credit card. Code delivered in 60 seconds via email. ✅ Instant redemption ✅ No credit card needed ✅ Perfect as a gift"
+      "de": "PlayStation Store Guthaben – Lade deine PSN-Wallet auf und entdecke die besten PS5 & PS4 Spiele. Kaufe Exklusivtitel wie Spider-Man, God of War oder GTA ohne Kreditkarte. Code in 60 Sekunden per E-Mail. ✅ Sofort einlösbar ✅ Keine Kreditkarte nötig ✅ Perfekt als Geschenk",
+      "en": "PlayStation Store Credit – Top up your PSN Wallet and discover the best PS5 & PS4 games. Buy exclusive titles like Spider-Man, God of War or GTA without a credit card. Code delivered in 60 seconds via email."
     },
     "image": "/images/products/playstation-card.jpg",
     "inStock": true,
@@ -90,16 +36,16 @@
     "tags": ["gaming", "playstation", "console", "beliebt"]
   },
   {
-    "id": "xbox-50",
+    "id": "xbox",
     "name": "Xbox Live",
     "category": "gaming",
     "brand": "Xbox",
-    "price": 50.00,
+    "denominations": [50],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "50€ Xbox Guthaben – Dein Ticket für Xbox Series X|S, Xbox One und PC. Kaufe die neuesten Games, Game Pass Abo oder In-Game-Content. Mit Prepaid anonym zahlen, keine Bankdaten nötig. Code kommt in unter 1 Minute. ✅ Für Xbox & PC ✅ Anonym & sicher ✅ 24/7 Lieferung",
-      "en": "€50 Xbox Credit – Your ticket for Xbox Series X|S, Xbox One and PC. Buy the latest games, Game Pass subscription or in-game content. Pay anonymously with prepaid, no bank details needed. Code delivered in under 1 minute. ✅ For Xbox & PC ✅ Anonymous & secure ✅ 24/7 delivery"
+      "de": "Xbox Guthaben – Dein Ticket für Xbox Series X|S, Xbox One und PC. Kaufe die neuesten Games, Game Pass Abo oder In-Game-Content. Mit Prepaid anonym zahlen, keine Bankdaten nötig. Code kommt in unter 1 Minute. ✅ Für Xbox & PC ✅ Anonym & sicher ✅ 24/7 Lieferung",
+      "en": "Xbox Credit – Your ticket for Xbox Series X|S, Xbox One and PC. Buy the latest games, Game Pass subscription or in-game content. Pay anonymously with prepaid, no bank details needed. Code delivered in under 1 minute."
     },
     "image": "/images/products/xbox-card.jpg",
     "inStock": true,
@@ -108,16 +54,16 @@
     "tags": ["gaming", "xbox", "console", "beliebt"]
   },
   {
-    "id": "nintendo-50",
+    "id": "nintendo",
     "name": "Nintendo eShop",
     "category": "gaming",
     "brand": "Nintendo",
-    "price": 50.00,
+    "denominations": [50],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "50€ Nintendo eShop Guthaben – Für Zelda, Mario, Pokémon und alle Switch-Spiele. Kaufe digitale Games, DLCs und Nintendo Switch Online ohne Kreditkarte. Der perfekte Bonus für deine Konsole. Code in 60 Sekunden per E-Mail. ✅ Für alle Switch-Modelle ✅ Keine Kreditkarte nötig ✅ Ideal als Geschenk",
-      "en": "€50 Nintendo eShop Credit – For Zelda, Mario, Pokémon and all Switch games. Buy digital games, DLCs and Nintendo Switch Online without a credit card. The perfect bonus for your console. Code delivered in 60 seconds via email. ✅ For all Switch models ✅ No credit card needed ✅ Perfect as a gift"
+      "de": "Nintendo eShop Guthaben – Für Zelda, Mario, Pokémon und alle Switch-Spiele. Kaufe digitale Games, DLCs und Nintendo Switch Online ohne Kreditkarte. Der perfekte Bonus für deine Konsole. Code in 60 Sekunden per E-Mail. ✅ Für alle Switch-Modelle ✅ Keine Kreditkarte nötig ✅ Ideal als Geschenk",
+      "en": "Nintendo eShop Credit – For Zelda, Mario, Pokémon and all Switch games. Buy digital games, DLCs and Nintendo Switch Online without a credit card. Code delivered in 60 seconds via email."
     },
     "image": "/images/products/nintendo-card.jpg",
     "inStock": true,
@@ -126,16 +72,16 @@
     "tags": ["gaming", "nintendo", "switch", "beliebt"]
   },
   {
-    "id": "netflix-25",
+    "id": "netflix",
     "name": "Netflix Geschenkkarte",
     "category": "streaming",
     "brand": "Netflix",
-    "price": 25.00,
+    "denominations": [25],
     "margin": 0.06,
     "currency": "EUR",
     "description": {
-      "de": "25€ Netflix Geschenkkarte – Unbegrenzte Serien & Filme, ganz ohne Abo-Falle. Von Stranger Things über Squid Game bis zum neuesten Netflix-Hit. Einlösbar für alle Tarife – auch 4K Premium. Perfekt zum Verschenken! Code sofort per E-Mail. ✅ Kein Abo nötig ✅ Für alle Tarife ✅ Das perfekte Geschenk",
-      "en": "€25 Netflix Gift Card – Unlimited series & movies, no subscription trap. From Stranger Things to Squid Game to the latest Netflix hit. Redeemable for all plans – including 4K Premium. Perfect for gifting! Code delivered instantly via email. ✅ No subscription needed ✅ For all plans ✅ The perfect gift"
+      "de": "Netflix Geschenkkarte – Unbegrenzte Serien & Filme, ganz ohne Abo-Falle. Von Stranger Things über Squid Game bis zum neuesten Netflix-Hit. Einlösbar für alle Tarife – auch 4K Premium. Perfekt zum Verschenken! Code sofort per E-Mail. ✅ Kein Abo nötig ✅ Für alle Tarife ✅ Das perfekte Geschenk",
+      "en": "Netflix Gift Card – Unlimited series & movies, no subscription trap. From Stranger Things to Squid Game to the latest Netflix hit. Redeemable for all plans – including 4K Premium. Code delivered instantly via email."
     },
     "image": "/images/products/netflix-card.jpg",
     "inStock": true,
@@ -144,16 +90,16 @@
     "tags": ["streaming", "netflix", "geschenk"]
   },
   {
-    "id": "spotify-30",
+    "id": "spotify",
     "name": "Spotify Premium",
     "category": "streaming",
     "brand": "Spotify",
-    "price": 30.00,
+    "denominations": [30],
     "margin": 0.06,
     "currency": "EUR",
     "description": {
-      "de": "30€ Spotify Premium Guthaben – 3 Monate werbefreie Musik ohne Abo-Falle. Streame über 100 Millionen Songs, höre Offline und genieße Premium-Sound. Ideal zum Verschenken oder selbst nutzen. Code sofort per E-Mail. ✅ Kein Abo nötig ✅ Offline-Modus ✅ Perfektes Geschenk",
-      "en": "€30 Spotify Premium Credit – 3 months ad-free music without subscription trap. Stream over 100 million songs, listen offline and enjoy premium sound. Perfect for gifting or personal use. Code delivered instantly via email. ✅ No subscription needed ✅ Offline mode ✅ Perfect gift"
+      "de": "Spotify Premium Guthaben – 3 Monate werbefreie Musik ohne Abo-Falle. Streame über 100 Millionen Songs, höre Offline und genieße Premium-Sound. Ideal zum Verschenken oder selbst nutzen. Code sofort per E-Mail. ✅ Kein Abo nötig ✅ Offline-Modus ✅ Perfektes Geschenk",
+      "en": "Spotify Premium Credit – 3 months ad-free music without subscription trap. Stream over 100 million songs, listen offline and enjoy premium sound. Code delivered instantly via email."
     },
     "image": "/images/products/spotify-card.jpg",
     "inStock": true,
@@ -162,16 +108,16 @@
     "tags": ["streaming", "spotify", "musik"]
   },
   {
-    "id": "apple-50",
+    "id": "apple",
     "name": "Apple App Store & iTunes",
     "category": "mobile",
     "brand": "Apple",
-    "price": 50.00,
+    "denominations": [50],
     "margin": 0.07,
     "currency": "EUR",
     "description": {
-      "de": "50€ Apple Guthaben – Ein Code für alles: Apps, Spiele, Apple Music, Filme, iCloud+ und mehr. Lade dein iPhone, iPad oder Mac auf – ohne Kreditkarte. Perfekt für In-App-Käufe und Abos. Code in 60 Sekunden. ✅ Für alle Apple-Geräte ✅ Anonym zahlen ✅ Keine Kreditkarte",
-      "en": "€50 Apple Credit – One code for everything: apps, games, Apple Music, movies, iCloud+ and more. Top up your iPhone, iPad or Mac – without a credit card. Perfect for in-app purchases and subscriptions. Code delivered in 60 seconds. ✅ For all Apple devices ✅ Pay anonymously ✅ No credit card"
+      "de": "Apple Guthaben – Ein Code für alles: Apps, Spiele, Apple Music, Filme, iCloud+ und mehr. Lade dein iPhone, iPad oder Mac auf – ohne Kreditkarte. Perfekt für In-App-Käufe und Abos. Code in 60 Sekunden. ✅ Für alle Apple-Geräte ✅ Anonym zahlen ✅ Keine Kreditkarte",
+      "en": "Apple Credit – One code for everything: apps, games, Apple Music, movies, iCloud+ and more. Top up your iPhone, iPad or Mac – without a credit card. Code delivered in 60 seconds."
     },
     "image": "/images/products/apple-card.jpg",
     "inStock": true,
@@ -180,16 +126,16 @@
     "tags": ["mobile", "apple", "ios", "beliebt"]
   },
   {
-    "id": "google-play-50",
+    "id": "google-play",
     "name": "Google Play",
     "category": "mobile",
     "brand": "Google",
-    "price": 50.00,
+    "denominations": [50],
     "margin": 0.07,
     "currency": "EUR",
     "description": {
-      "de": "50€ Google Play Guthaben – Dein Schlüssel zu Millionen Android Apps, Spielen, Filmen und Büchern. Kaufe In-Game-Währung, YouTube Premium oder Google One Speicher – sicher und anonym. Code in unter 1 Minute. ✅ Für alle Android-Geräte ✅ Auch für YouTube ✅ Keine Bankdaten nötig",
-      "en": "€50 Google Play Credit – Your key to millions of Android apps, games, movies and books. Buy in-game currency, YouTube Premium or Google One storage – secure and anonymous. Code delivered in under 1 minute. ✅ For all Android devices ✅ Also for YouTube ✅ No bank details needed"
+      "de": "Google Play Guthaben – Dein Schlüssel zu Millionen Android Apps, Spielen, Filmen und Büchern. Kaufe In-Game-Währung, YouTube Premium oder Google One Speicher – sicher und anonym. Code in unter 1 Minute. ✅ Für alle Android-Geräte ✅ Auch für YouTube ✅ Keine Bankdaten nötig",
+      "en": "Google Play Credit – Your key to millions of Android apps, games, movies and books. Buy in-game currency, YouTube Premium or Google One storage – secure and anonymous. Code delivered in under 1 minute."
     },
     "image": "/images/products/google-play-card.jpg",
     "inStock": true,
@@ -198,16 +144,16 @@
     "tags": ["mobile", "android", "google"]
   },
   {
-    "id": "roblox-25",
+    "id": "roblox",
     "name": "Roblox",
     "category": "gaming",
     "brand": "Roblox",
-    "price": 25.00,
+    "denominations": [25],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "25€ Roblox Guthaben – Kaufe Robux für Skins, Game-Passes und Premium. Über 40 Millionen Spiele und Erlebnisse warten! Sicher für Kinder – keine Kreditkarte oder Bankverbindung nötig. Code sofort per E-Mail. ✅ Für Robux & Premium ✅ Kindersicher ✅ Keine Bankdaten",
-      "en": "€25 Roblox Credit – Buy Robux for skins, game passes and Premium. Over 40 million games and experiences await! Safe for kids – no credit card or bank connection needed. Code delivered instantly via email. ✅ For Robux & Premium ✅ Child-safe ✅ No bank details"
+      "de": "Roblox Guthaben – Kaufe Robux für Skins, Game-Passes und Premium. Über 40 Millionen Spiele und Erlebnisse warten! Sicher für Kinder – keine Kreditkarte oder Bankverbindung nötig. Code sofort per E-Mail. ✅ Für Robux & Premium ✅ Kindersicher ✅ Keine Bankdaten",
+      "en": "Roblox Credit – Buy Robux for skins, game passes and Premium. Over 40 million games and experiences await! Safe for kids – no credit card or bank connection needed. Code delivered instantly via email."
     },
     "image": "/images/products/roblox-card.jpg",
     "inStock": true,
@@ -216,16 +162,16 @@
     "tags": ["gaming", "roblox", "kinder"]
   },
   {
-    "id": "amazon-50",
+    "id": "amazon",
     "name": "Amazon.de Geschenkgutschein",
     "category": "shopping",
     "brand": "Amazon",
-    "price": 50.00,
+    "denominations": [50],
     "margin": 0.05,
     "currency": "EUR",
     "description": {
-      "de": "50€ Amazon.de Gutschein – Einlösbar für Millionen Produkte: Elektronik, Bücher, Haushalt, Prime und mehr. Der ultimative Geschenkgutschein für jeden Anlass. Code sofort per E-Mail. ✅ Alles auf Amazon.de ✅ Nie verfallen ✅ Das perfekte Geschenk",
-      "en": "€50 Amazon.de Voucher – Redeemable for millions of products: electronics, books, household, Prime and more. The ultimate gift card for any occasion. Code delivered instantly via email. ✅ Everything on Amazon.de ✅ Never expires ✅ The perfect gift"
+      "de": "Amazon.de Gutschein – Einlösbar für Millionen Produkte: Elektronik, Bücher, Haushalt, Prime und mehr. Der ultimative Geschenkgutschein für jeden Anlass. Code sofort per E-Mail. ✅ Alles auf Amazon.de ✅ Nie verfallen ✅ Das perfekte Geschenk",
+      "en": "Amazon.de Voucher – Redeemable for millions of products: electronics, books, household, Prime and more. The ultimate gift card for any occasion. Code delivered instantly via email."
     },
     "image": "/images/products/amazon-card.jpg",
     "inStock": true,
@@ -234,16 +180,16 @@
     "tags": ["shopping", "amazon", "geschenk"]
   },
   {
-    "id": "xbox-game-pass-15",
+    "id": "xbox-game-pass",
     "name": "Xbox Game Pass",
     "category": "gaming",
     "brand": "Xbox",
-    "price": 15.00,
+    "denominations": [15],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "15€ Xbox Game Pass – 1 Monat Zugang zu hunderten Top-Spielen für Xbox und PC. Day-One-Releases, EA Play inklusive. Teste den 'Netflix für Games' ohne Abo-Falle. Code sofort per E-Mail. ✅ Hunderte Spiele ✅ Day-One-Releases ✅ Für Xbox & PC",
-      "en": "€15 Xbox Game Pass – 1 month access to hundreds of top games for Xbox and PC. Day-one releases, EA Play included. Try the 'Netflix for games' without subscription trap. Code delivered instantly via email. ✅ Hundreds of games ✅ Day-one releases ✅ For Xbox & PC"
+      "de": "Xbox Game Pass – 1 Monat Zugang zu hunderten Top-Spielen für Xbox und PC. Day-One-Releases, EA Play inklusive. Teste den 'Netflix für Games' ohne Abo-Falle. Code sofort per E-Mail. ✅ Hunderte Spiele ✅ Day-One-Releases ✅ Für Xbox & PC",
+      "en": "Xbox Game Pass – 1 month access to hundreds of top games for Xbox and PC. Day-one releases, EA Play included. Code delivered instantly via email."
     },
     "image": "/images/products/xbox-card.jpg",
     "inStock": true,
@@ -252,16 +198,16 @@
     "tags": ["gaming", "xbox", "subscription"]
   },
   {
-    "id": "playstation-plus-25",
+    "id": "playstation-plus",
     "name": "PlayStation Plus",
     "category": "gaming",
     "brand": "PlayStation",
-    "price": 25.00,
+    "denominations": [25],
     "margin": 0.08,
     "currency": "EUR",
     "description": {
-      "de": "25€ PlayStation Plus – 3 Monate Online-Multiplayer, kostenlose Spiele und exklusive Rabatte. Essential für jeden PS5/PS4 Besitzer. Spiele online mit Freunden und hol dir monatlich Gratis-Games. Code in 60 Sekunden. ✅ Online-Multiplayer ✅ Kostenlose Spiele ✅ Exklusive Rabatte",
-      "en": "€25 PlayStation Plus – 3 months online multiplayer, free games and exclusive discounts. Essential for every PS5/PS4 owner. Play online with friends and get monthly free games. Code delivered in 60 seconds. ✅ Online multiplayer ✅ Free games ✅ Exclusive discounts"
+      "de": "PlayStation Plus – 3 Monate Online-Multiplayer, kostenlose Spiele und exklusive Rabatte. Essential für jeden PS5/PS4 Besitzer. Spiele online mit Freunden und hol dir monatlich Gratis-Games. Code in 60 Sekunden. ✅ Online-Multiplayer ✅ Kostenlose Spiele ✅ Exklusive Rabatte",
+      "en": "PlayStation Plus – 3 months online multiplayer, free games and exclusive discounts. Essential for every PS5/PS4 owner. Code delivered in 60 seconds."
     },
     "image": "/images/products/playstation-card.jpg",
     "inStock": true,

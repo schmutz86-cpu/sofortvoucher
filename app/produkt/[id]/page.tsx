@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${product.name} | Guthabenkarten.ch`,
+    title: `${product.name} | sofortvoucher.de`,
     description: product.description.de,
   };
 }
